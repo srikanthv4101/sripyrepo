@@ -11,7 +11,7 @@ def home():
     # or overridden at run time with -e). Falls back to a default.
     name = os.environ.get("APP_NAME", "Docker Demo")
     return {
-        "message": f"Hello from {name}!",
+        "message": "hello srikanth changed msg in dev env and with the same port 5011",
         "served_by_container": socket.gethostname(),
         "status": "running",
     }
